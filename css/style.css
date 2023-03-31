@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+* {
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+.about {
+    font-family: "Poppins",sans-serif;
+    background-color: #081564;
+    color: #fff;
+    padding: 100px;
+    line-height: 40px;
+}
+/*Responsive*/
+@media screen and (max-width: 650px) {
+    .header {
+      justify-content: center;
+    }
+  
+    .nav {
+      display: none;
+    }
+  }
+  
+/* Parallax Area */
+.container {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background: url(../img/background.jpg);
+    background-attachment: fixed;
+}
+
+#intro-background {
+    background-color: #191825;
+}
+
+/* Header */
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+  }
+  
+  header .logo {
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+  }
+  
+  header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  header ul li {
+    list-style: none;
+    margin-left: 20px;
+  }
+  
+  header ul li a {
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #fff;
+    border-radius: 20px;
+    transition: 0.5s;
+  }
+  
+  header ul li a:hover {
+    background-color: #fff;
+    color: #2b1055;
+  }
+
+  /* About section */
+.about-section {
+    position: relative;
+    display: block;
+    padding: 50px;
+    background-color: #1c0522;
+  }
+  
+  .about-section h2 {
+    margin: 0.65em 0;
+    color: #fff;
+    font-size: 3.25em;
+  }
+  
+  .about-section h3 {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    color: #fff;
+    font-size: 2em;
+  }
+  
+  .about-section p {
+    margin: 1em 0;
+    color: #fff;
+    font-size: 1em;
+  }
+
+/* Footer */
+footer {
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #081564;
+    color: #fff;
+  }
+  
+  footer .logo {
+    height: 60px;
+    width: 60px;
+    color: #fff;
+    font-size: 2em;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  footer .logo img {
+    height: 100%;
+    width: 100%;
+  }
+  
+  footer .social {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  footer .social a {
+    margin-left: 20px;
+    color: #fff;
+    font-size: 1.5em;
+  }
+  
+  footer .social a:hover {
+    color: #7597de;
+  }
+  

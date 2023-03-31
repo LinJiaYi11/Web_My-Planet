@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Lin's little planet</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/parallax.js"></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">Kalila Lin's</a>
+        <ul class="nav">
+          <li><a href="#about">About</a></li>
+          <li><a href="#about">Works</a></li>
+          <li><a href="#about">Contact</a></li>
+        </ul>
+    </header>
+    
+
+    <div class="container">
+        <ul id="scene">
+            <li class="layer" data-depth=".2"><img src="img/planet1.png"></li>
+            <li class="layer" data-depth=".3"><img src="img/planet2.png"></li>
+            <li class="layer" data-depth=".2"><img src="img/man.png"></li>
+            <li class="layer" data-depth=".5"><img src="img/earth.png"></li>
+            <li class="layer" data-depth=".1"><img src="img/text.png"></li>
+            <li class="layer" data-depth=".4"><img src="img/planet3.png"></li>
+            <li class="layer" data-depth=".8"><img src="img/planet4.png"></li>
+            <li class="layer" data-depth="0"><img src="img/planet5.png"></li>
+        </ul>
+    </div>
+
+    <div class="about">
+        <h2>About Me</h2>
+        <p>
+            Hello, it's so lovely to meet you! My name is Lin Cen, but you can call me Kalila. I was born in Venezuela, but my family's roots are firmly planted in Chinese culture. 
+            Growing up, I had the privilege of spending my childhood in both Venezuela and China. However, when I was 11 years old, my family moved to Mexico, and it was there that 
+            I truly felt at home. <br> Despite my Asian appearance, I grew up surrounded by Mexican culture, and I feel like my soul is that of a Mexican girl. I love to dance and sing, 
+            but I'm not really a party person, which is perhaps a bit unusual for someone with my background. In fact, I'm quite the nerd and bookworm, so I think there's a bit of 
+            Chinese in me too. <br> I think my love for travel might be in my genes. I've been lucky enough to explore many incredible places, including the United States, Canada, 
+            Mexico, Venezuela, China, Japan, and France. Right now, I'm living life down under and soaking up the sun in Australia. <br> <br>
+        </p>
+
+        <h2>Work </h2>
+        <p>
+            The reason I'm currently in Australia is because I've been working as an operations manager for IT projects for nearly five years now. Most of the projects I've worked on 
+            have involved developing cool new apps or transforming companies through IT solutions. Working alongside project managers, product owners, and developers, I found myself 
+            becoming increasingly interested in programming. So, I decided to make a big career change from business and management to becoming a programmer or developer. I've studied 
+            a few related courses, but I felt like there was still so much to learn! That's why I decided to take the plunge and apply for the Master of Computing and Innovations program 
+            at the University of Adelaide in Australia. <br> Time sure does fly, and I can hardly believe that I'm already in my final year of my master's degree. Looking back, it's been 
+            an amazing journey so far! I've learned so many new things, met incredible people, and discovered the vibrant Australian culture. Being a full-time student again has been such 
+            a treat, allowing me to soak up all the university life has to offer. But most importantly, I've made some lifelong friends who share my passions for studying, learning, and 
+            pursuing our dreams. It's truly inspiring to be surrounded by such motivated and driven individuals who are all working towards something bigger than themselves. <br> I'm 
+            currently juggling both university courses and bootcamp courses, and let me tell you, it's been a wild ride. But even though I'm as busy as a bee, I'm absolutely loving this 
+            sense of productivity! I can't wait to put all my hard work to the test and land my first internship next semester. It's the next big step in my journey, and I'm excited to 
+            see where it takes me. Sure, things may be a little crazy right now, but it's all worth it to chase after my dreams!<br>
+        </p>
+
+    </div>
+    
+    <footer>
+        <a href="#" class="logo"><img src="https://raw.githubusercontent.com/iampaulchevrier/moonlight-parallax/2195bc0dfabd83b70f59b37df3fff3e7d20d8aaa/assets/images/logo.svg" alt="Logo"></a>
+        <p class="copyright">©2023 Kalila Lin</p>
+        <a class="footer-link" href="https://www.linkedin.com/in/lincenlinjiayi/">LinkedIn</a>
+    </footer>
+
+    <script>
+        var scene = document.getElementById('scene');
+        var parallax = new Parallax(scene);
+    </script>
+
+</body></html>
